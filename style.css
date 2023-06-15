@@ -47,11 +47,39 @@ body {
   font-size: 16px;
   font-family: 'Nunito', sans-serif;
   color: var(--dark-black-color);
+  box-sizing: border-box;
 }
 
 
 
 /* ===================Timeline=================== */
+
+#timeline .card-plain {
+  border: none;
+  background-color: initial;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.timeline>li {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.timeline li {
+  position: relative;
+}
+ul.timeline:before {
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  content: " ";
+  width: 3px;
+  background-color: #dbdbdb;
+  left: 50%;
+  margin-left: 15px;
+}
+
 .timeline {
     list-style-type: none;
     position: relative;
@@ -88,6 +116,14 @@ body {
     text-align: center;
     font-size: 21px;
 }
+
+.timeline-inverted.timeline-panel:before {
+  border-left-width: 0;
+  border-right-width: 15px;
+  left: -15px;
+  right: auto;
+}
+
 .timeline-panel {
     width: 45%;
     float: left;
@@ -99,5 +135,39 @@ body {
     margin-bottom: 20px;
     position: relative;
 }
+
+.timeline h6 {
+  color: #9a9a9a;
+  font-weight: 400;
+  margin: 10px 0 0;
+}
+
+li.timeline-inverted>.timeline-panel {
+  float: right;
+  background-color: #fff;
+}
+
+.timeline>li::after {
+  clear: both;
+}
+
+.timeline>li:after, .card-timeline .timeline>li:before {
+  content: " ";
+  display: table;
+}
 /* ===================End Timeline=================== */
 
+
+
+@media screen and (max-width: 991px) {
+  .timeline:before, .timeline>li>.timeline-badge {
+    left: 5% !important;
+  }
+  ul.timeline::before {
+    margin-left: 30px;
+  }
+  .timeline>li>.timeline-panel {
+    float: right!important;
+    width: 82%!important;
+}
+}
