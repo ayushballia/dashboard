@@ -1,12 +1,158 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dashboard</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard</title>
+  <!--======= Favicon Icon =======-->
+  <link rel="shortcut icon" type="image/x-icon" href="./favicon.png">
+
+  <!--======= Bootstrap CSS =======-->
+  <link rel="stylesheet" href="./assests/css/bootstrap.min.css">
+
+  <!--======= Swiper CSS =======-->
+  <link rel="stylesheet" href="./assests/css/swiper-bundle.min.css">
+
+  <!--======= Swiper JS =======-->
+  <script src="./assests/js/swiper-bundle.min.js"></script>
+
+  <!--======= Font Awesome Icons =======-->
+  <script src="./assests/js/all.min.js"></script>
+
+  <!--======= CUSTOM CSS =======-->
+  <link rel="stylesheet" href="./assests/css/style.css">
+
 </head>
+
 <body>
-    <h1>AzeoSoft------</h1>
-    pankja
+  <div class="container-fluid">
+    <ul class="navbar-nav sidenav-bar accordian" id="accordianSidebar">
+      <a class="navbar-brand text-center" href="#">Creative Tim</a>
+      <hr class="sidebar-divider">
+         
+      
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          <img src="./assests/img/logo.avif" class="img-fluid logo">
+          <span>Ishan</span>
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">My Profile</a></li>
+          <li><a class="dropdown-item" href="#">Edit Profile</a></li>
+          <li><a class="dropdown-item" href="#">Setting</a></li>
+        </ul>
+      </li>
+      <hr class="sidebar-divider">
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span>Dashboard</span>
+        </a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Pages
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Timeline</a></li>
+          <li><a class="dropdown-item" href="#">Login</a></li>
+          <li><a class="dropdown-item" href="#">Register</a></li>
+          <li><a class="dropdown-item" href="#">LockScreen</a></li>
+          <li><a class="dropdown-item" href="#">User Profile</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Components
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Button</a></li>
+          <li><a class="dropdown-item" href="#">Grid System</a></li>
+          <li><a class="dropdown-item" href="#">Panel</a></li>
+        </ul>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Forms
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Regular Forms</a></li>
+          <li><a class="dropdown-item" href="#">Extended Forms</a></li>
+          <li><a class="dropdown-item" href="#">Validation Forms</a></li>
+          <li><a class="dropdown-item" href="#">Wizard</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Tables
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Regular Tables</a></li>
+          <li><a class="dropdown-item" href="#">Extended Tables</a></li>
+          <li><a class="dropdown-item" href="#">React Tables</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Maps
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Google Maps</a></li>
+          <li><a class="dropdown-item" href="#">Full Screen Maps</a></li>
+          <li><a class="dropdown-item" href="#">Vector Maps</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+          aria-expanded="false">
+          Pages
+        </a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li><a class="dropdown-item" href="#">Timeline</a></li>
+          <li><a class="dropdown-item" href="#">Login</a></li>
+          <li><a class="dropdown-item" href="#">Register</a></li>
+          <li><a class="dropdown-item" href="#">LockScreen</a></li>
+          <li><a class="dropdown-item" href="#">User Profile</a></li>
+        </ul>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span>Widgets</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span>Charts</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">
+          <span>Calender</span>
+        </a>
+      </li>
+
+    </ul>
+  </div>
+
+
+  
+</div>
+
+
+  <!--======= Bootstrap JS =======-->
+  <script src="./assests/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
