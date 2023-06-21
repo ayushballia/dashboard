@@ -1,0 +1,348 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    color: #810b0b;
+    font-size: 14px;
+    font-family: montserrat,helvetica neue,Arial,sans-serif;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+}
+
+.main-panel{
+    height: 100%;
+    max-height: 100%;
+    background-color:#ecebe6 ;
+}
+.btn.btn-icon{
+    height: 2.375rem;
+    width:2.375rem ;
+    background-color: #7b7a75;
+    color: white;
+}
+
+.btn.btn-icon:hover{
+    color:white;
+    background-color: #7b7a75;
+}
+
+button.btn-round{
+    border-radius: 50%;
+}
+
+.navbar-brand{
+    position: relative;
+    right: 310px;
+}
+.container{
+    margin: 20px;
+}
+.card {
+    border-radius: 22px;
+    box-shadow: 0 6px 10px -4px rgba(0,0,0,.15);
+    background-color: #fff;
+    color: #252422;
+    margin-bottom: 20px;
+    position: relative;
+    border: 0;
+    transition: box-shadow .2s ease,-webkit-transform .3s cubic-bezier(.34,2,.6,1);
+    transition: transform .3s cubic-bezier(.34,2,.6,1),box-shadow .2s ease;
+    transition: transform .3s cubic-bezier(.34,2,.6,1),box-shadow .2s ease,-webkit-transform .3s cubic-bezier(.34,2,.6,1);
+}
+.card-stats.card-body{
+    padding: 15px 15px 0;
+}
+.card-foot{
+margin:8px;
+}
+.icon-big i{
+    font-size: 40px;
+}
+.card-stats .card-body .numbers p {
+    margin-bottom: 0;
+}
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+.card-stats .card-body .numbers .card-category {
+    color: #9a9a9a;
+    font-size: 16px;
+    line-height: 1.4em;
+}
+.card-stats .card-body .numbers p {
+    margin-bottom: 0;
+}
+.card-stats .card-body .numbers {
+    text-align: right;
+    font-size: 2em;
+}
+.text-center {
+    text-align: center!important;
+}
+
+.fa-coins{
+    color: rgb(11, 213, 153);
+}
+
+.fa-globe{
+    color: rgb(185, 146, 18);
+}
+.fa-bezier-curve{
+    color: #e75555;
+}
+.fa-heart{
+    color: aqua;
+}
+
+.card .numbers {
+    font-size: 2em;
+}
+.big-title{
+    position: relative;
+left: 60px;
+}
+
+
+
+.badge.badge-success {
+    border-color: #6bd098;
+    background-color:#6bd098;
+    margin-left: 92px;
+    border-radius: 12px;
+}
+
+/* .pull-right .btn-icon{
+    position: relative;
+    left: 100px;
+} */
+.pull-right .btn-round{
+    background-color: #6bd098;
+}
+.pull-right .btn-clr2{
+    background-color: #e75555;
+    border-color: #e75555;
+    
+}
+.pull-right .icon2{
+    background-color:#e75555 ;
+}
+.pull-right .icon3{
+    background-color: #ad8318;
+}
+.pull-right .btn-clr3{
+    background-color: #ad8318;
+    border-color: #ad8318;
+}
+.img-wrapper img{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 10px 25px 0px  rgba(86, 83, 83, 0.3);
+    border-radius: 50%;
+    /* position: relative;
+    right: 210px;
+  bottom: 5px;  */
+
+
+}
+.fa-xmark{
+color: #e75555;
+}
+.text-right .btn-inf{
+    background-color:white;
+    color: white;
+}
+.text-right .btn-inf:hover{
+    background-color:white;
+}
+.card-body .graph4{
+    position: relative;
+    right: 30px;
+    height: 285px;
+}
+
+
+/* highchart */
+
+#demo-wrapper {
+    max-width: 1000px;
+    margin: 0 auto;
+    height: 300px;
+    background: white;
+}
+
+#map-box {
+    width: 80%;
+    float: left;
+}
+
+#container {
+    height: 300px;
+}
+
+#side-box {
+    float: right;
+    width: 16%;
+    margin: 100px 1% 0;
+    padding-left: 1%;
+    border-left: 1px solid silver;
+    display: none;
+}
+
+#info-box {
+    margin-top: 10px;
+}
+
+.or-view-as {
+    margin: 0.5em 0;
+}
+
+#up {
+    line-height: 30px;
+    height: 30px;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+#up a {
+    cursor: pointer;
+    padding-left: 40px;
+}
+
+#chkDataLabels {
+    display: inline;
+}
+
+.selector {
+    height: 40px;
+    max-width: 400px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.selector .prev-next {
+    position: absolute;
+    padding: 0 10px;
+    font-size: 30px;
+    line-height: 20px;
+    background: white;
+    font-weight: bold;
+    color: #999;
+    top: -2px;
+    display: none;
+    border: none;
+}
+
+.selector .custom-combobox {
+    display: block;
+    position: absolute;
+    left: 40px;
+    right: 65px;
+}
+
+.selector .custom-combobox .custom-combobox-input {
+    position: absolute;
+    font-size: 14px;
+    color: silver;
+    border-radius: 3px 0 0 3px;
+    height: 32px;
+    display: block;
+    background: url("https://www.highcharts.com/samples/graphics/search.png") 5px 8px no-repeat white;
+    padding: 1px 5px 1px 30px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.selector .custom-combobox .ui-autocomplete-input:focus {
+    color: black;
+}
+
+.selector .custom-combobox .ui-autocomplete-input.valid {
+    color: black;
+}
+
+.selector .custom-combobox-toggle {
+    position: absolute;
+    display: block;
+    right: -32px;
+    border-radius: 0 3px 3px 0;
+    height: 32px;
+    width: 32px;
+}
+
+.selector #btn-next-map {
+    right: -12px;
+}
+
+.ui-autocomplete {
+    max-height: 300px;
+    overflow: auto;
+}
+
+.ui-autocomplete .option-header {
+    font-style: italic;
+    font-weight: bold;
+    margin: 5px 0;
+    font-size: 1.2em;
+    color: gray;
+}
+
+.loading {
+    margin-top: 10em;
+    text-align: center;
+    color: gray;
+}
+
+.ui-button-icon-only .ui-button-text {
+    height: 26px;
+    padding: 0 !important;
+    background: white;
+}
+
+#info-box .button {
+    border: none;
+    border-radius: 3px;
+    background: #a4edba;
+    padding: 5px;
+    color: black;
+    text-decoration: none;
+    font-size: 12px;
+    white-space: nowrap;
+    cursor: pointer;
+    margin: 0 3px;
+    line-height: 30px;
+}
+
+@media (max-width: 768px) {
+    #demo-wrapper {
+        width: auto;
+        height: auto;
+    }
+
+    #map-box {
+        width: auto;
+        float: none;
+    }
+
+    #container {
+        height: 310px;
+    }
+
+    #side-box {
+        float: none;
+        width: auto;
+        margin-top: 0;
+        border-left: none;
+        border-top: 1px solid silver;
+    }
+}
+
+/* highchart */
+
+
+
+
+div input{
+    display
+}
