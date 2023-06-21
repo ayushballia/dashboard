@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--======= Bootstrap CSS =======-->
+    <link rel="stylesheet" href="./assests/css/bootstrap.min.css">
+
+    <!--======= Swiper CSS =======-->
+    <link rel="stylesheet" href="./assests/css/swiper-bundle.min.css">
+
+    <!--======= Swiper JS =======-->
+    <script src="./assests/js/swiper-bundle.min.js"></script>
+
+    <!--======= Font Awesome Icons =======-->
+    <script src="./assests/js/all.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.3.0/chart.min.js">
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.3.0/chart.min.js">  -->
+
+    <!--======= CUSTOM CSS =======-->
+    <link rel="stylesheet" href="./assests/css/style.css">
+</head>
+
+<body>
+    <section id="line-chart">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5>24 Hour Performance</h5>
+                            <div class="chart">
+                                <canvas id="lineChart" role="img"
+                                    style="display: block; box-sizing: border-box; height: 281px; width: 563px;"
+                                    width="703" height="351"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5>Line Chart With Point</h5>
+                            <div class="chart">
+                                <canvas id="pointChart" role="img"
+                                    style="display: block; box-sizing: border-box; height: 281px; width: 563px;"
+                                    width="703" height="351"></canvas>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="bar-graph">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5>Views</h5>
+                            <h6>Bar Chart</h6>
+                            <canvas id="barGraph" role="img"
+                                style="display: block; box-sizing: border-box; height: 281px; width: 563px;" width="703"
+                                height="351"></canvas>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="card">
+                        <div class="card-body">
+                            <h5>Views</h5>
+                            <h6>Multiple Bar Chart</h6>
+                            <canvas id="twoGraph" role="img"
+                                style="display: block; box-sizing: border-box; height: 281px; width: 563px;" width="703"
+                                height="351"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="doughnut-chart">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="card shadow">
+                        <div class="card-body">
+                            <h5>Email Statistics</h5>
+                            <canvas id="dough" role="img"
+                            style="display: block; box-sizing: border-box; height: 281px; width: 563px;" width="703"
+                            height="351"></canvas>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script> -->
+    <script src="./assests/js/chart.js"></script>
+    <!--======= Bootstrap JS =======-->
+    <script src="./dashboard/assests/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
