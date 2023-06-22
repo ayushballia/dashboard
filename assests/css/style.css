@@ -172,10 +172,8 @@ li{
 }
 .main{
   position: absolute;
-  width: calc(100% -300px);
-  left: 300px;
-  min-height: 100vh;
-  background-color: #0077b5;
+  width: 1222px;
+  left: 312px;
   transition: 0.5s;
 }
 .topbar{
@@ -202,6 +200,9 @@ li{
   display: flex;
   justify-content: end;
   align-items: center;
+}
+.wrapper{
+  display: flex;
 }
 .accordion-button{
   background-color: #574476 !important;
