@@ -54,6 +54,9 @@ body {
 
 
 /* ===================Timeline=================== */
+#timeline {
+  display: none;
+}
 
 #timeline .card-plain {
   border: none;
