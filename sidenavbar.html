@@ -75,12 +75,8 @@
                 <div id="collapseComponent" class="accordion-collapse collapse" aria-labelledby="headingComponent"
                     data-bs-parent="#accordionExample">
                     <ul>
-                        <li class="nav-item"><a class="nav-link" href="#">Button</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Grid System</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Panel</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Sweet Screen</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Notification</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Icons</a></li>
+                        <li class="nav-item"><a class="nav-link" href="button.html">Button</a></li>
+                        
                     </ul>
                 </div>
 
@@ -92,10 +88,10 @@
                 <div id="collapseForms" class="accordion-collapse collapse" aria-labelledby="headingForms"
                     data-bs-parent="#accordionExample">
                     <ul>
-                        <li class="nav-item"><a class="nav-link" href="#">Regular Forms</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Extended Forms</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Validation Form</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Wizard</a></li>
+                        <li class="nav-item"><a class="nav-link" href="regular-form.html">Regular Forms</a></li>
+                        <li class="nav-item"><a class="nav-link" href="extended.html">Extended Forms</a></li>
+                        <li class="nav-item"><a class="nav-link" href="validation.html">Validation Form</a></li>
+                  
 
                     </ul>
                 </div>
@@ -107,109 +103,92 @@
                 <div id="collapseTables" class="accordion-collapse collapse" aria-labelledby="headingTables"
                     data-bs-parent="#accordionExample">
                     <ul>
-                        <li class="nav-item"><a class="nav-link" href="#">Regular Table</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Extended Table</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">React Table</a></li>
+                        <li class="nav-item"><a class="nav-link" href="regular-table.html">Regular Table</a></li>
+                        <li class="nav-item"><a class="nav-link" href="extended-table.html">Extended Table</a></li>
+                        <li class="nav-item"><a class="nav-link" href="react-table.html">React Table</a></li>
                     </ul>
                 </div>
-                <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse" id="headingMaps"
-                    data-bs-target="#collapseMaps" aria-expanded="false" aria-controls="collapseMaps">
-                    <i class="fas fa-map-marker me-3"></i>
-                    <span>Maps</span>
-                </a>
-                <div id="collapseMaps" class="accordion-collapse collapse" aria-labelledby="headingMaps"
-                    data-bs-parent="#accordionExample">
-                    <ul>
-                        <li class="nav-item"><a class="nav-link" href="#">Google Maps</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Full Screen Map</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Vector Map</a></li>
-                    </ul>
-                </div>
+              
+               
                 <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="fas fa-calendar me-2"></i>
-                        <span>Widgets</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
+                    <a class="nav-link" href="chart.html">
                         <i class="fas fa-chart-bar me-2"></i>
                         <span>Chart</span>
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">
-                        <i class="far fa-calendar-check me-2"></i>
-                        <span>Calendar</span>
-                    </a>
-                </li>
+                
             </ul>
         </div>
 
 
 
         <div class="main">
-            <!-- <div class="topbar">
-                <div class="toggle">
+            <!-- <div class="topbar"> -->
+                <!-- <a id="menu-btn">
                     <i class="fas fa-sliders-h"></i>
-                </div> -->
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                </a> -->
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
 
-                    <div class="container-fluid">
+                <div class="container-fluid">
+                    <button class="navbar-toggler" type="button" data-mdb-toggle="collapse"
+                        data-mdb-target="#sidebarMenu" aria-controls="sidebarMenu" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <i class="fas fa-bars"></i>
+                    </button>
+                    <h3><i class="fas fa-chevron-left"></i> Dashboard Design Using Bootstrap </h3>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-                        <h3 >Paper Dashboard Pro React</h3>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-
-                            <ul class="navbar-nav d-flex align-items-center justify-content-end">
-                                <li class="nav-item">
-                                    <form class="d-flex">
-                                        <div class="input-group mb-3">
-                                            <input type="text" class="form-control" placeholder="Search...."
-                                                aria-label="Recipient's username" aria-describedby="button-addon2" />
-                                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">
-                                                <i class="fas fa-search"></i>
-                                            </button>
-                                        </div>
-                                    </form>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fas fa-border-all"></i></a>
-                                </li>
-                                <li class="nav-item dropdown">
-                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                                        data-bs-toggle="dropdown" aria-expanded="false">
-                                        <i class="far fa-bell"></i>
-                                    </a>
-                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <li><a class="dropdown-item" href="#">Action</a></li>
-                                        <li><a class="dropdown-item" href="#">Another action</a></li>
-                                        <li>
-                                            <hr class="dropdown-divider" />
-                                        </li>
-                                        <li>
-                                            <a class="dropdown-item" href="#">Something else here</a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link" href="#"><i class="fas fa-cog"></i></a>
-                                </li>
-                            </ul>
-                        </div>
+                        <ul class="navbar-nav d-flex align-items-center justify-content-end ms-auto">
+                            <li class="nav-item">
+                                <form class="d-flex">
+                                    <div class="input-group mb-3">
+                                        <input type="text" class="form-control" placeholder="Search...."
+                                            aria-label="Recipient's username" aria-describedby="button-addon2" />
+                                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                                            <i class="fas fa-search"></i>
+                                        </button>
+                                    </div>
+                                </form>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-border-all"></i></a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    <i class="far fa-bell"></i>
+                                </a>
+                                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <li><a class="dropdown-item" href="#">Action</a></li>
+                                    <li><a class="dropdown-item" href="#">Another action</a></li>
+                                    <li>
+                                        <hr class="dropdown-divider" />
+                                    </li>
+                                    <li>
+                                        <a class="dropdown-item" href="#">Something else here</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#"><i class="fas fa-cog"></i></a>
+                            </li>
+                        </ul>
                     </div>
+                </div>
 
-                </nav>
-            </div>
-            <!-- Topbar -->
-
+            </nav>
         </div>
+        <!-- Topbar -->
 
     </div>
+
+    </div>
+    
     <script src="./assests/js/index.js"></script>
     <!--======= Bootstrap JS =======-->
     <script src="./assests/js/bootstrap.bundle.min.js"></script>
