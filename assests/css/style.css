@@ -34,6 +34,13 @@ li{
   list-style: none;
 }
 
+/* Sidebar */
+
+.sidebar-wrapper{
+  width: 16.25rem;
+}
+/* end Sidebar */
+
 .sidebar-logo{
   padding: 1.15rem 1.5rem;
 }
