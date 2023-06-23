@@ -2,158 +2,204 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Dashboard</title>
-  <!--======= Favicon Icon =======-->
-  <link rel="shortcut icon" type="image/x-icon" href="./favicon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--======= Bootstrap CSS =======-->
+    <link rel="stylesheet" href="./assests/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!--======= Favicon Icon =======-->
+    <link rel="shortcut icon" type="image/x-icon" href="./favicon.png">
 
-      <!--======= Bootstrap CSS =======-->
-      <link rel="stylesheet" href="./assests/css/bootstrap.min.css" />
+    <!--======= Bootstrap CSS =======-->
+    <link rel="stylesheet" href="./assests/css/bootstrap.min.css">
 
-      <!--======= Swiper CSS =======-->
-      <link rel="stylesheet" href="./assests/css/swiper-bundle.min.css" />
+    <!--======= Swiper CSS =======-->
+    <link rel="stylesheet" href="./assests/css/swiper-bundle.min.css">
 
-      <!--======= Swiper JS =======-->
-      <script src="./assests/js/swiper-bundle.min.js"></script>
+    <!--======= Swiper JS =======-->
+    <script src="./assests/js/swiper-bundle.min.js"></script>
 
-      <!--======= Font Awesome Icons =======-->
-      <script src="./assests/js/all.min.js"></script>
+    <!--======= Font Awesome Icons =======-->
+    <script src="./assests/js/all.min.js"></script>
 
-      <!--======= CUSTOM CSS =======-->
-      <link rel="stylesheet" href="./assests/css/style.css" />
+    <!--======= CUSTOM CSS =======-->
+    <link rel="stylesheet" href="./assests/css/style.css">
+
+    <!--======= CUSTOM CSS =======-->
+    <link rel="stylesheet" href="./assests/css/style.css">
 
 </head>
 
 <body>
-  <div class="container-fluid">
-    <ul class="navbar-nav sidenav-bar accordian" id="accordianSidebar">
-      <a class="navbar-brand text-center" href="#">Creative Tim</a>
-      <hr class="sidebar-divider">
+    <div class="wrapper">
+        <div class="sidebar sidenav-bar">
+            <div class="logo">
+                <a class="navbar-brand text-center" href="#">Creative Tim</a>
+                <hr>
+            </div>
+            <div class="sidebar-wrapper accordion" id="accordionExample">
+                <div class="user">
+                    <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse" id="headingProfile"
+                        data-bs-target="#collapseProfile" aria-expanded="false" aria-controls="collapseProfile">
+                        <i class="fas fa-smile fa-3x me-2"></i>
+                        <span>Tim</span>
+                        
+                    </a>
+                    <hr>
+                    <div id="collapseProfile" class="accordion-collapse collapse" aria-labelledby="headingProfile"
+                        data-bs-parent="#accordionExample">
+                        <ul>
+                            <li class="nav-item"><a class="nav-link" href="#">Profile</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Edit Profile</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#">Setting</a></li>
+
+                        </ul>
+                       
+                    </div>                 
+                </div>
+                <ul class="navbar-nav gap-3">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link align-items-center">
+                            <i class="fas fa-tachometer-alt fa-2x me-2"></i>
+                            <span >Dashboard</span>
+                        </a>
+                    </li>
+
+                    <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse" id="headingPages"
+                        data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                        <i class="far fa-bookmark fa-2x me-3"></i>
+                        <span>Pages</span>
+                    </a>
+                    <div id="collapsePages" class="accordion-collapse collapse" aria-labelledby="headingPages"
+                        data-bs-parent="#accordionExample">
+                        <ul>
+                            <li class="nav-item"><a class="nav-link" href="timeline.html">Timeline</a></li>
+                            <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                            <li class="nav-item"><a class="nav-link" href="register.html">Register</a></li>
+                            <li class="nav-item"><a class="nav-link" href="lock-screen.html">LockScreen</a></li>
+                            <li class="nav-item"><a class="nav-link" href="user-profile.html">user Profile</a></li>
+                        </ul>
+                    </div>
+                    <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse" id="headingComponent"
+                        data-bs-target="#collapseComponent" aria-expanded="false" aria-controls="collapseComponent">
+                        <i class="fas fa-border-all fa-2x me-3"></i>
+                        <span>Component</span>
+                    </a>
+                    <div id="collapseComponent" class="accordion-collapse collapse" aria-labelledby="headingComponent"
+                        data-bs-parent="#accordionExample">
+                        <ul>
+                            <li class="nav-item"><a class="nav-link" href="button.html">Button</a></li>
+
+                        </ul>
+                    </div>
+
+                    <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse" id="headingForms"
+                        data-bs-target="#collapseForms" aria-expanded="false" aria-controls="collapseForms">
+                        <i class="fab fa-wpforms fa-2x me-3"></i>
+                        <span>Forms</span>
+                    </a>
+                    <div id="collapseForms" class="accordion-collapse collapse" aria-labelledby="headingForms"
+                        data-bs-parent="#accordionExample">
+                        <ul>
+                            <li class="nav-item"><a class="nav-link" href="regular-form.html">Regular Forms</a></li>
+                            <li class="nav-item"><a class="nav-link" href="extended.html">Extended Forms</a></li>
+                            <li class="nav-item"><a class="nav-link" href="validation.html">Validation Form</a></li>
+
+                        </ul>
+                    </div>
+                    <a class="accordion-button collapsed" type="button" data-bs-toggle="collapse" id="headingTables"
+                        data-bs-target="#collapseTables" aria-expanded="false" aria-controls="collapseTables">
+                        <i class="fas fa-table fa-2x me-3"></i>
+                        <span>Tables</span>
+                    </a>
+                    <div id="collapseTables" class="accordion-collapse collapse" aria-labelledby="headingTables"
+                        data-bs-parent="#accordionExample">
+                        <ul>
+                            <li class="nav-item"><a class="nav-link" href="regular-table.html">Regular Table</a></li>
+                            <li class="nav-item"><a class="nav-link" href="extendend-table.html">Extended Table</a></li>
+                            <li class="nav-item"><a class="nav-link" href="react-table.html">React Table</a></li>
+                        </ul>
+                    </div>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="chart.html">
+                            <i class="fas fa-chart-bar fa-2x me-2"></i>
+                            <span>Chart</span>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+
+        </div>
+        <div class="main-pannel">
 
 
 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">
-          <!-- <img src="./assests/img/logo.avif" class="img-fluid logo"> -->
-          <span>Ishan</span>
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="#">My Profile</a></li>
-          <li><a class="dropdown-item" href="#">Edit Profile</a></li>
-          <li><a class="dropdown-item" href="#">Setting</a></li>
-        </ul>
-      </li>
-      <hr class="sidebar-divider">
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <span>Dashboard</span>
-        </a>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">
-          Pages
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="#">Timeline</a></li>
-          <li><a class="dropdown-item" href="#">Login</a></li>
-          <li><a class="dropdown-item" href="#">Register</a></li>
-          <li><a class="dropdown-item" href="#">LockScreen</a></li>
-          <li><a class="dropdown-item" href="#">User Profile</a></li>
-        </ul>
-      </li>
+            <!-- Topbar Start -->
+           
+                <nav class="navbar navbar-expand-lg navbar-light bg-light ">
+                    <div class="container-fluid">
+                        <h3><i class="fas fa-chevron-left"></i> Paper Dashboard Pro React</h3>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">
-          Components
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="#">Button</a></li>
-          <li><a class="dropdown-item" href="#">Grid System</a></li>
-          <li><a class="dropdown-item" href="#">Panel</a></li>
-        </ul>
-      </li>
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">
-          Forms
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="#">Regular Forms</a></li>
-          <li><a class="dropdown-item" href="#">Extended Forms</a></li>
-          <li><a class="dropdown-item" href="#">Validation Forms</a></li>
-          <li><a class="dropdown-item" href="#">Wizard</a></li>
-        </ul>
-      </li>
+                            <ul class="navbar-nav ms-auto d-flex align-items-center justify-content-end">
+                                <li class="nav-item">
+                                    <form class="d-flex">
+                                        <div class="input-group me-3">
+                                            <input type="text" class="form-control" placeholder="Search...."
+                                                aria-label="Recipient's username" aria-describedby="button-addon2" />
+                                            <button class="btn btn-outline-secondary" type="button" id="button-addon2">
+                                                <i class="fas fa-search"></i>
+                                            </button>
+                                        </div>
+                                    </form>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fas fa-border-all me-3"></i></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                        data-bs-toggle="dropdown" aria-expanded="false">
+                                        <i class="far fa-bell me-4"></i>
+                                    </a>
+                                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                        <li><a class="dropdown-item" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#"><i class="fas fa-cog me-5"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">
-          Tables
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="#">Regular Tables</a></li>
-          <li><a class="dropdown-item" href="#">Extended Tables</a></li>
-          <li><a class="dropdown-item" href="#">React Tables</a></li>
-        </ul>
-      </li>
+                </nav>
+            
+        </div>
+        <!-- Topbar end -->
 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">
-          Maps
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="#">Google Maps</a></li>
-          <li><a class="dropdown-item" href="#">Full Screen Maps</a></li>
-          <li><a class="dropdown-item" href="#">Vector Maps</a></li>
-        </ul>
-      </li>
+    </div>
 
-      <li class="nav-item dropdown">
-        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
-          aria-expanded="false">
-          Pages
-        </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <li><a class="dropdown-item" href="#">Timeline</a></li>
-          <li><a class="dropdown-item" href="#">Login</a></li>
-          <li><a class="dropdown-item" href="#">Register</a></li>
-          <li><a class="dropdown-item" href="#">LockScreen</a></li>
-          <li><a class="dropdown-item" href="#">User Profile</a></li>
-        </ul>
-      </li>
+                </nav>
+            </div>
+            <!-- Topbar -->
 
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <span>Widgets</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <span>Charts</span>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">
-          <span>Calender</span>
-        </a>
-      </li>
-
-    </ul>
-  </div>
-
-
-
-  </div>
+        </div>
 
     <script src="./assests/js/index.js"></script>
     <!--======= Bootstrap JS =======-->
     <script src="./assests/js/bootstrap.bundle.min.js"></script>
+</body>
 
-    <script src="main.js"></script>
-  </body>
 </html>
