@@ -303,6 +303,7 @@ li.timeline-inverted > .timeline-panel {
   background: #f4f3ef;
   height: 100vh;
   padding: 5rem;
+  display: none;
 }
 
 #user-profile .card,
