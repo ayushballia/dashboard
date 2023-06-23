@@ -49,12 +49,12 @@ li{
   font-size: 1.25rem;
   font-weight: 600;
 }
-.btn-default{
+/* .btn-default{
   
   color: var(--light-primary);
   text-transform: uppercase;
   font-weight: 600;
-}
+} */
 .button-light{
   color: var(--dark-black-color);
   text-transform: uppercase;
@@ -177,13 +177,13 @@ li{
   width: 300px;
 
 }
-.main{
+/* .main{
   position: absolute;
   width: 1222px;
   left: 312px;
   transition: 0.5s;
-}
-.topbar{
+} */
+/* .topbar{
   width: 100%;
   height: 60px;
   display: flex;
@@ -202,6 +202,9 @@ li{
   align-items: center;
   font-size: 2.5rem;
   cursor: pointer;
+} */
+.main-pannel{
+  width: 100%;
 }
 .navbar-bar{
   display: flex;
@@ -220,7 +223,7 @@ li{
   
 }
 .accordion-button::after{  
-  background-color: #8f63d6 !important;
+  background-color: white !important;
 }
 .header-profile{
   background-color: var(--primary-color);
