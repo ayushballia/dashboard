@@ -268,3 +268,30 @@ li{
   display: flex;
   flex-direction: column;
 }
+
+
+/* Show dashboard page */
+
+.page {
+  width: 80vw;
+  height: 100vh;
+  position: fixed;
+  top: calc(30vh+5px);
+  left: -100vw;
+  margin-left: 16rem;
+  overflow-y: auto;
+  z-index: 0;
+  background-color: hsl(0,0%,100%);
+  padding: 0em;
+}
+
+.page:target {
+  left: 0vw;
+  z-index: 1;
+  animation: .5s leftright;
+}
+
+@keyframes leftright {
+	0%{ left: -100vw; }
+	100%{ left: 0vw; } 
+}

@@ -1,10 +1,12 @@
+Array.from(document.querySelectorAll(".nav-link"))
+.map(x => x.addEventListener("click", 
+  function(e){
+    Array.from(document.querySelectorAll(".nav-link"))
+    .map(x => x.classList.remove("active"));
+    e.target.classList.add("active");    
+  }
+));
 
-
-function show(shown, hidden) {
-  document.getElementById(shown).style.display='block';
-  document.getElementById(hidden).style.display='none';
-  return false;
-}
 
 // function showTimeline(){
 //     console.log("clicked");
