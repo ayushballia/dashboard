@@ -1,21 +1,29 @@
-function showTimeline(){
-    console.log("clicked");
-    var timeline = document.getElementById('timeline');
-    if (timeline.style.display === "none") {
-        timeline.style.display = "block";
-        } else {
-            timeline.style.display = "none";
-        }
 
+
+function show(shown, hidden) {
+  document.getElementById(shown).style.display='block';
+  document.getElementById(hidden).style.display='none';
+  return false;
 }
 
-function showUserProfile(){
-    console.log("clicked");
-    var userProfile = document.getElementById('user-profile');
-    if (userProfile.style.display === "none") {
-        userProfile.style.display = "block";
-        } else {
-            userProfile.style.display = "none";
-        }
+// function showTimeline(){
+//     console.log("clicked");
+//     var timeline = document.getElementById('timeline');
+//     if (timeline.style.display === "none") {
+//         timeline.style.display = "block";
+//         } else {
+//             timeline.style.display = "none";
+//         }
 
-}
+// }
+
+// function showUserProfile(){
+//     console.log("clicked");
+//     var userProfile = document.getElementById('user-profile');
+//     if (userProfile.style.display === "none") {
+//         userProfile.style.display = "block";
+//         } else {
+//             userProfile.style.display = "none";
+//         }
+
+// }

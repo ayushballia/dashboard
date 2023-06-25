@@ -167,7 +167,7 @@ li{
   font-weight: 600;
 }
 .sidenav-bar{
-  background-color: var(--primary-color);
+  background-color: #574476;
   min-height: 100vh;
   color: white;
   padding: 20px;
