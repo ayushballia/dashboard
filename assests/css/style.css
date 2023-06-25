@@ -277,8 +277,8 @@ li{
   height: 100vh;
   position: fixed;
   top: calc(30vh+5px);
-  left: -100vw;
-  margin-left: 16rem;
+  left: -120vw;
+  margin-left: 25vw;
   overflow-y: auto;
   z-index: 0;
   background-color: hsl(0,0%,100%);
